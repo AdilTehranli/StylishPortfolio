@@ -6,13 +6,31 @@
 header{
     height: 725px;
     background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg");
-;
 }
-
-
 .header_title{
     text-align: center;
+    
 }
+.header_title h1{
+
+    font-size: 95px;
+}
+.header_title p{
+    font-size: 25px;
+}
+.header_title button{
+    margin-top: 18px;
+    height: 52px;
+    width: 136px;
+    border: none;
+    background-color: #1D809F;
+    border-radius: 10px;
+}
+.header_title button a{
+    text-decoration: none;
+    color: white;
+}
+
 .header_main_title{
     padding-top: 318px;
 }
@@ -33,46 +51,124 @@ i{
 
 .section_port{
     text-align: center;
-    height: 318px;
+    height: 360px;
 
 }
 
 .section_title_port{
     padding-top: 125px;
 }
+.section_title_port h2 {
+    font-size: 30px;
+}
+.section_title_port p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.section_title_port button {
+    height: 59px;
+    border-radius: 14px;
+    border: none;
+    color: white;
+    background-color: black;
+    margin-top: 25px;
+    width: 158px;
+
+}
 
 .section_offer{
     background-color: #1D809F;
     text-align: center;
+    height: 464px;
 }
 .section_main_offer{
     text-align: center;
+    padding-top: 60px;
+}
+.section_main_offer p{
+    color: orange;
+}
+.section_main_offer h2{
+    font-size: 30px;
+    color: white;
+}
+.text_icon{
+    margin-top: 50px;
+    margin-right: 68px;
 }
 .icons{
+    margin-left: 108px;
     display:inline-block;
 
 }
 .main_icon{
     text-align: center;
-    width: 80px;
-    height: 80px;
+    width: 139px;
+    height: 122px;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 75px;
 }
 .icon{
-    padding-top: 20px;
+    padding-top: 25px;
+    color:#1D809F;
+    font-size: 30px;
+}
+.icons h3{
+    color: white;
+    font-size: 30px;
+}
+.icons p{
+    color: #BCD9E2;
 }
 .welcome{
     text-align: center;
+    height: 46rem;
     background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg");
 }
+.welcome_text{
+    padding-top: 19rem;
+}
+.welcome_text h2{
+    font-size: 70px;
+}
+.welcome_text button{
+background-color: #1D809F;
+    border: none;
+    border-radius: 12px;
+    width: 158px;
+    margin-top: 15px;
+    height: 63px;
+}
+.welcome_text a{
+    text-decoration: none;
+    color: white;
+}
+
 .section_recent_title{
     text-align: center;
     margin-top: 50px;
 }
+.section_recent_title p{
+    color: orange;
+}
+.section_recent_title h2{
+    font-size: 50px;
+}
 
+.main_hover_box{
+    margin-top: 50px;
+}
 .hover_box{
     position: relative;
+    clip-path: inset(0px);
+    transition: 1s;
+
+}
+
+.hover_box :hover{
+    transition: 0.5s;
+    transform: scaleX(0.9) scaleY(0.9);
 }
 .hover_title{
     position: absolute;
@@ -80,19 +176,55 @@ i{
     bottom: 79px;
 }
 
-
+/* .overal{
+    background-color: red;
+    width: 698px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+} */
 
 
 .button{
+    height: 300px;
     text-align: center;
     background-color: #1D809F;
 
 }
-button{
+.button h2{
+    padding-top: 67px;
+    color: white;
+}
+.b1{
     display: inline-block;
+    width: 141px;
+    height: 54px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.b2{
+    display: inline-block;
+    width: 141px;
+    height: 54px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+
 }
 footer{
+    height: 250px;
     text-align: center;
+}
+.main_iconf{
+    margin-top: 70px;
 }
 .iconf{
     width: 60px;
@@ -106,4 +238,7 @@ footer{
 .anom{
     color: white;
     padding-top: 10px;
+}
+footer p{
+    margin-top: 100px;
 }
