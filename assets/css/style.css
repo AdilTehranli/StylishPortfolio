@@ -155,40 +155,65 @@ background-color: #1D809F;
 .section_recent_title h2{
     font-size: 50px;
 }
-
-.main_hover_box{
-    margin-top: 50px;
-}
-.hover_box{
+.all_content .contents{
+    display: block;
     position: relative;
-    clip-path: inset(0px);
-    transition: 1s;
-
-}
-
-.hover_box :hover{
+    overflow: hidden;
+    width: 40%;
+    display: inline-block;
+    margin: -5px;
     transition: 0.5s;
-    transform: scaleX(0.9) scaleY(0.9);
-}
-.hover_title{
-    position: absolute;
-    left: 53px;
-    bottom: 79px;
-}
 
-/* .overal{
-    background-color: red;
-    width: 698px;
-    height: 500px;
+}
+.all_content {
+    margin-left: 15rem;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 37, 41, 0.2);
     position: absolute;
     top: 0;
     bottom: 0;
+    z-index: 1;
+}
+.caption-content{
+    margin-left: 3rem;
+    margin-top: 16rem;
+}
+.contents:hover{
+    clip-path: inset(1px);
+    transform: scaleX(0.9) scaleY(0.9);
+    transition: 0.5s;
+    
+}
+
+.contents:hover .overlay{
+    opacity: 1;
+}
+.caption-content  h2{
+    color: white;
+}
+.caption-content  p{
+    color: white;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
     left: 0;
     right: 0;
-    opacity: 0;
-} */
-
-
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    background-color: #008bba9a;
+  }
+.contents img{
+    width: 100%;
+}
 .button{
     height: 300px;
     text-align: center;
